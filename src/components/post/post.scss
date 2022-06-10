@@ -1,0 +1,52 @@
+.post {
+  width: 385px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px 40px 60px;
+  font-family: "Handlee";
+  img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  .post-info {
+    .post-cats {
+      display: flex;
+      justify-content: center;
+      .post-cat {
+        margin-right: 20px;
+
+        font-size: 20px;
+        margin-top: 20px;
+        font-weight: 400;
+        cursor: pointer;
+        a {
+          color: #be9656;
+        }
+      }
+    }
+    .post-title {
+      display: flex;
+      font-size: 24px;
+      font-weight: 900;
+      justify-content: center;
+      margin-top: 15px;
+      cursor: pointer;
+      a {
+        color: #444;
+      }
+    }
+    .post-date {
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+      font-size: 15px;
+      color: #444;
+    }
+    .post-content {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
